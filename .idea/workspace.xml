@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f84428d-508d-4437-a390-a7d33dc1a01d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Account.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ERC20.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ERC721.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Extensibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Introspection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Proxies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Security.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Utilities.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/access/test_Ownable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/account/test_Account.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/account/test_AddressRegistry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/introspection/test_ERC165.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/ERC165.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/ERC20_Burnable_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/ERC721_SafeMintable_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/Initializable.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/Ownable.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/Pausable.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/account_reentrancy.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/proxiable_implementation.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/reentrancy_attacker_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/reentrancy_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/safemath_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/upgrades_v1_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/mocks/upgrades_v2_mock.cairo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/security/test_initializable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/security/test_pausable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/security/test_reentrancy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/security/test_safemath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc20/test_ERC20.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc20/test_ERC20_Burnable_mock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc20/test_ERC20_Mintable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc20/test_ERC20_Pausable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc20/test_ERC20_Upgradeable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc721/test_ERC721_Mintable_Burnable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc721/test_ERC721_Mintable_Pausable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc721/test_ERC721_SafeMintable_mock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/token/erc721_enumerable/test_ERC721_Enumerable_Mintable_Burnable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/upgrades/test_Proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/upgrades/test_upgrades.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NvErSHnzf7Pb7AjApOAhdDwC4k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f84428d-508d-4437-a390-a7d33dc1a01d" name="Changes" comment="" />
+      <created>1680536353938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680536353938</updated>
+      <workItem from="1680536355362" duration="1006000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
