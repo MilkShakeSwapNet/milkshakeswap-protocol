@@ -229,9 +229,6 @@ func swap{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
         amount0_store.write(Uint256(low=0, high=0));
     }
 
-    local syscall_ptr: felt* = syscall_ptr;
-    local pedersen_ptr: HashBuiltin* = pedersen_ptr;
-
     let (compare1) = uint256_signed_le(remainingReserve1, balance1);
     let (tsub1) = SafeUint256.sub_le(_reserve1, amount1Out);
     let (famount1In) = SafeUint256.sub_le(balance1, tsub1);
@@ -242,6 +239,8 @@ func swap{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
         amount1_store.write(Uint256(low=0, high=0));
     }
 
+    local syscall_ptr: felt* = syscall_ptr;
+    local pedersen_ptr: HashBuiltin* = pedersen_ptr;
     let (m00) = SafeUint256.mul(balance0, Uint256(low=1000, high=0));
     let (amount0In) = amount0_store.read();
     let (m01) = SafeUint256.mul(amount0In, Uint256(low=3, high=0));

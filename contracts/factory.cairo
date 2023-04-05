@@ -32,15 +32,6 @@ func pair_store_length() -> (pair_length: felt) {
 func pair_created(token0: felt, token1: felt, pair: felt, pair_length: felt) {
 }
 
-@contract_interface
-namespace IFactoryContract {
-    func create_pair(tokenA: felt, tokenB: felt) {
-    }
-
-    func get_pair(tokenA: felt, tokenB: felt) -> (res: felt) {
-    }
-}
-
 @constructor
 func constructor{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
     class_hash: felt

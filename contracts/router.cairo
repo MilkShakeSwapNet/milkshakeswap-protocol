@@ -13,8 +13,32 @@ from openzeppelin.security.safemath.library import SafeUint256
 // from starkware.starknet.core.os.contract_address import get_contract_address
 
 // from core.library import (IFactoryContract)
-from core.interfaces.IPairContract import IPairContract
-from core.interfaces.IFactoryContract import IFactoryContract
+// from core.interfaces.IPairContract import IPairContract
+// from core.interfaces.IFactoryContract import IFactoryContract
+
+@contract_interface
+namespace IPairContract {
+    func getReserves() -> (reserve0: Uint256, reserve1: Uint256) {
+    }
+
+    func mint(to: felt) -> (liquidity: Uint256) {
+    }
+
+    func burn(to: felt) -> (amount0: Uint256, amount1: Uint256) {
+    }
+
+    func swap(amount0Out: Uint256, amount1Out: Uint256, to: felt) {
+    }
+}
+
+@contract_interface
+namespace IFactoryContract {
+    func create_pair(tokenA: felt, tokenB: felt) {
+    }
+
+    func get_pair(tokenA: felt, tokenB: felt) -> (res: felt) {
+    }
+}
 
 @storage_var
 func f_store() -> (factory: felt) {
