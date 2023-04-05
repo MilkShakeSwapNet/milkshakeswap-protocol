@@ -1,0 +1,72 @@
+[
+    {
+        "data": [
+            {
+                "name": "token0",
+                "type": "felt"
+            },
+            {
+                "name": "token1",
+                "type": "felt"
+            },
+            {
+                "name": "pair",
+                "type": "felt"
+            },
+            {
+                "name": "pair_length",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "pair_created",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "class_hash",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "tokenA",
+                "type": "felt"
+            },
+            {
+                "name": "tokenB",
+                "type": "felt"
+            }
+        ],
+        "name": "create_pair",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "tokenA",
+                "type": "felt"
+            },
+            {
+                "name": "tokenB",
+                "type": "felt"
+            }
+        ],
+        "name": "get_pair",
+        "outputs": [
+            {
+                "name": "pair",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
